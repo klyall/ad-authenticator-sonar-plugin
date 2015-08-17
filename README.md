@@ -16,7 +16,7 @@ In the ${SONAR_HOME}/conf/sonar.properties configuration file add the following 
 ### Faster Searches
 
 Sometime Active Directory searches can be made faster by adding additional search objects. Up to 5 additional search
-objects can be added by setting addiotn properties in ${SONAR_HOME}/conf/sonar.properties configuration file. For example:
+objects can be added by setting additional properties in ${SONAR_HOME}/conf/sonar.properties configuration file. For example:
 
     sonar.ad.search.1: OU=User Accounts
 
