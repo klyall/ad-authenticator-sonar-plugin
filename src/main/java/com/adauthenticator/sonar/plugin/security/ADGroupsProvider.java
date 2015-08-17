@@ -47,7 +47,7 @@ public class ADGroupsProvider extends ExternalGroupsProvider {
     /**
      * Returns the groups associated with the user.
      * 
-     * @username The user name.
+     * @param username The user name.
      */
     @Override
     public Collection<String> doGetGroups(String username) {
